@@ -1,0 +1,6 @@
+/target
+/.idea
+/training/.venv
+/training/__pycache__
+/training/data
+/training/runs

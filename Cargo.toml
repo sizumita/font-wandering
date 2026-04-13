@@ -1,0 +1,26 @@
+[package]
+name = "font-wandering"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+candle = { package = "candle-core", version = "0.10.2", features = ["metal"] }
+candle-nn = { version = "0.10.2", features = ["metal"] }
+candle-transformers = { version = "0.10.2", features = ["metal"] }
+fontdb = { version = "0.23.0", default-features = false, features = ["fs", "memmap"] }
+futures = "0.3.31"
+gpui = { version = "0.2.2", default-features = false, features = ["font-kit", "macos-blade"] }
+hdbscan = "0.12.0"
+image = { version = "0.25.6", default-features = false, features = ["png"] }
+ndarray = "0.17.2"
+rand = "0.8.5"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+smallvec = "1.15.1"
+swash = "0.2.7"
+umap = { package = "umap-rs", version = "0.4.5" }
+unicode-segmentation = "1.12.0"
+
+[dev-dependencies]
+tempfile = "3.23.0"

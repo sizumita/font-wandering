@@ -1,0 +1,8 @@
+fonttools>=4.53
+hdbscan>=0.8
+numpy>=1.26
+pillow>=10.4
+scikit-learn>=1.5
+torch>=2.3
+torchvision>=0.18
+tqdm>=4.66

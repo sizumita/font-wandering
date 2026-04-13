@@ -2,6 +2,9 @@
 name = "font-wandering"
 version = "0.1.0"
 edition = "2024"
+description = "GPUI-based system font glyph explorer with hybrid embedding, UMAP, and HDBSCAN."
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.100"
